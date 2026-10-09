@@ -3,25 +3,45 @@ import Image from 'next/image';
 
 const BannerPage = () => {
     return (
-        <div className='flex pt-5 pb-5 gap-4 justify-center items-center bg-[#15171D] container mx-auto mt-10 mb-10 rounded-2xl'>
-            <div>
-                <p className='text-[#CCFF00] text-[10px]'>WORKOUT LIBRARY</p>
 
-                <h2 className='text-5xl font-bold mt-3 mb-3'>TRAIN WITH INTENT. LOG <br></br>
+        <div className="container mx-auto mt-10 mb-10 flex flex-col items-center justify-center gap-4 rounded-2xl bg-[#15171D] pt-5 pb-5 md:flex-row">
+
+            {/* Banner Image */}
+            <div className="order-1 w-full px-5 md:order-2 md:w-auto md:px-0">
+                <Image
+                    src={bannerImg}
+                    alt="Workout banner"
+                    className="h-auto w-full rounded-xl object-cover"
+                    sizes="(max-width: 767px) 100vw, 50vw"
+                />
+            </div>
+
+            {/* Text Content */}
+            <div className="order-2 w-full px-5 text-center md:order-1 md:w-auto md:px-0 md:text-left">
+
+                <p className="text-[10px] text-[#CCFF00]">
+                    WORKOUT LIBRARY
+                </p>
+
+                <h2 className="mt-3 mb-3 text-3xl font-bold text-white sm:text-4xl md:text-5xl">
+                    TRAIN WITH INTENT. LOG <br className="hidden sm:block" />
                     EVERY SET.
                 </h2>
 
-                <p className='text-[#9CA3AF]'>FitLog is a dark, no-nonsense gym companion: pick a lift, lock it <br></br>
-                    into todays plan, and watch the weeks work add up.
+                <p className="text-sm text-[#9CA3AF] sm:text-base">
+                    FitLog is a dark, no-nonsense gym companion: pick a lift, lock it
+                    <br className="hidden md:block" />
+                    into today&apos;s plan, and watch the weeks&apos; work add up.
                 </p>
 
-                <button className='bg-[#CCFF00] text-black p-2 rounded-sm mt-7 font-bold text-[11px]'>BROWSE WORKOUTS</button>
+                <button className="mt-7 rounded-sm bg-[#CCFF00] p-2 text-[11px] font-bold text-black">
+                    BROWSE WORKOUTS
+                </button>
 
             </div>
-            <div>
-                <Image src={bannerImg}/>
-            </div>
         </div>
+
+
     );
 };
 
