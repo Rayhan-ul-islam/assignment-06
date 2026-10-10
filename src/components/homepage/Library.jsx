@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import LibraryCard from '../shared/LibraryCard';
 
 const getLibraryPromise = async () => {
@@ -19,12 +20,16 @@ const Library = async () => {
                 <p className='text-[#9CA3AF] text-[14px]'>Twelve lifts covering every major muscle group.</p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
-                {libraryData.map((library, ind) => {
-                    return (
-                        <LibraryCard key={ind} library={library}></LibraryCard>
-                    );
-                })}
+            <div className="grid grid-cols-1 gap-6 p-4 sm:grid-cols-2 lg:grid-cols-3">
+                {libraryData.map((library) => (
+                    <Link
+                        href={`/workout/${library.id}`}
+                        key={library.id}
+                        className="block h-full"
+                    >
+                        <LibraryCard library={library} />
+                    </Link>
+                ))}
             </div>
         </section>
     );
