@@ -1,0 +1,276 @@
+[
+  {
+    "id": 1,
+    "name": "Barbell Bench Press",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666664.jpg?w=740",
+    "muscleGroups": [
+      "Chest",
+      "Arms"
+    ],
+    "equipment": "Barbell, Bench",
+    "difficulty": "Intermediate",
+    "duration": 25,
+    "caloriesBurned": 180,
+    "sets": 4,
+    "reps": "6-8",
+    "rating": 4.8,
+    "description": "A compound press that builds chest thickness, triceps, and pressing power from a stable bench.",
+    "instructions": [
+      "Lie on the bench with eyes under the bar and feet planted.",
+      "Unrack with locked elbows and lower the bar to mid-chest.",
+      "Press up in a slight arc until elbows lock without bouncing.",
+      "Keep shoulder blades pinched and a natural arch in the back."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Barbell Back Squat",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666665.jpg?w=740",
+    "muscleGroups": [
+      "Legs",
+      "Glutes",
+      "Core"
+    ],
+    "equipment": "Barbell, Squat Rack",
+    "difficulty": "Advanced",
+    "duration": 30,
+    "caloriesBurned": 220,
+    "sets": 4,
+    "reps": "5-6",
+    "rating": 4.9,
+    "description": "The king of lower body exercises, building absolute strength and muscle mass across the entire lower body.",
+    "instructions": [
+      "Rest the bar across your upper traps and unrack.",
+      "Step back, set feet shoulder-width apart with toes slightly out.",
+      "Break at the hips and knees, descending until thighs are parallel to the floor.",
+      "Drive through your mid-foot to return to the starting position."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pull-Up",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666666.jpg?w=740",
+    "muscleGroups": [
+      "Back",
+      "Arms"
+    ],
+    "equipment": "Pull-Up Bar",
+    "difficulty": "Intermediate",
+    "duration": 20,
+    "caloriesBurned": 150,
+    "sets": 3,
+    "reps": "8-10",
+    "rating": 4.7,
+    "description": "An upper body staple focusing on lat width, upper back thickness, and grip strength.",
+    "instructions": [
+      "Grab the bar with an overhand grip wider than shoulder-width.",
+      "Hang with fully extended arms and engaged core.",
+      "Pull your chest up to the bar by driving your elbows down and back.",
+      "Lower yourself under control to the starting hang position."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Conventional Deadlift",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666667.jpg?w=740",
+    "muscleGroups": [
+      "Back",
+      "Legs",
+      "Glutes"
+    ],
+    "equipment": "Barbell, Plates",
+    "difficulty": "Advanced",
+    "duration": 35,
+    "caloriesBurned": 250,
+    "sets": 3,
+    "reps": "5",
+    "rating": 4.9,
+    "description": "A full-body posterior chain movement designed to develop tremendous raw pulling power.",
+    "instructions": [
+      "Stand with mid-foot under the barbell, feet hip-width apart.",
+      "Hinge at the hips and grip the bar just outside your legs.",
+      "Drop your hips, flatten your back, and pull the slack out of the bar.",
+      "Drive the floor away, locking out your hips and knees at the top."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Overhead Press",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666668.jpg?w=740",
+    "muscleGroups": [
+      "Shoulders",
+      "Arms",
+      "Core"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "duration": 20,
+    "caloriesBurned": 140,
+    "sets": 4,
+    "reps": "8-10",
+    "rating": 4.6,
+    "description": "The ultimate test of strict upper body pushing strength, targeting shoulders and triceps.",
+    "instructions": [
+      "Hold the bar at shoulder height with a grip just outside shoulder width.",
+      "Brace your core tightly and squeeze your glutes for stability.",
+      "Press the bar straight up overhead, moving your head out of the way.",
+      "Lock out your elbows overhead and safely lower back to the starting position."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Barbell Bent-Over Row",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666669.jpg?w=740",
+    "muscleGroups": [
+      "Back",
+      "Arms"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "duration": 20,
+    "caloriesBurned": 160,
+    "sets": 4,
+    "reps": "8-10",
+    "rating": 4.7,
+    "description": "A compound pull movement that builds thick upper back muscles and rear deltoids.",
+    "instructions": [
+      "Hold a barbell with an overhand grip, hinge forward at the hips to about 45 degrees.",
+      "Keep your spine neutral and core braced tightly.",
+      "Pull the barbell toward your lower ribs or belly button.",
+      "Squeeze your shoulder blades together at the peak and lower smoothly."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dumbbell Lateral Raise",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666670.jpg?w=740",
+    "muscleGroups": [
+      "Shoulders"
+    ],
+    "equipment": "Dumbbells",
+    "difficulty": "Beginner",
+    "duration": 15,
+    "caloriesBurned": 90,
+    "sets": 3,
+    "reps": "12-15",
+    "rating": 4.5,
+    "description": "An isolation exercise targeting the lateral deltoids to build wider-looking shoulders.",
+    "instructions": [
+      "Stand tall holding dumbbells at your sides with a slight bend in the elbows.",
+      "Raise your arms out to the sides until they are parallel to the floor.",
+      "Briefly pause at the top position.",
+      "Lower the dumbbells back down to your sides in a controlled motion."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Barbell Bicep Curl",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666671.jpg?w=740",
+    "muscleGroups": [
+      "Arms"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Beginner",
+    "duration": 15,
+    "caloriesBurned": 100,
+    "sets": 3,
+    "reps": "10-12",
+    "rating": 4.6,
+    "description": "A classic arm-building movement to develop bicep mass and peak strength.",
+    "instructions": [
+      "Hold a barbell with an underhand grip at shoulder-width.",
+      "Keep your elbows pinned close to your sides.",
+      "Curl the bar upward toward your chest by contracting your biceps.",
+      "Lower the weight back down slowly with full extension."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Tricep Pushdown",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666672.jpg?w=740",
+    "muscleGroups": [
+      "Arms"
+    ],
+    "equipment": "Cable Machine, Rope",
+    "difficulty": "Beginner",
+    "duration": 15,
+    "caloriesBurned": 95,
+    "sets": 3,
+    "reps": "10-12",
+    "rating": 4.7,
+    "description": "An effective cable exercise for isolating and building tricep definition.",
+    "instructions": [
+      "Attach a rope to a high pulley and grip it with palms facing each other.",
+      "Keep your elbows locked in place by your ribs.",
+      "Push the rope down and spread the ends apart at the bottom.",
+      "Return slowly to the starting position with control."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Plank",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666673.jpg?w=740",
+    "muscleGroups": [
+      "Core"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "duration": 10,
+    "caloriesBurned": 60,
+    "sets": 3,
+    "reps": "45s",
+    "rating": 4.6,
+    "description": "An isometric core hold that strengthens the deep abdominal muscles and lower back.",
+    "instructions": [
+      "Get into a forearm support position with elbows directly under shoulders.",
+      "Keep your body in a straight line from head to heels.",
+      "Engage your core and squeeze your glutes tightly.",
+      "Hold the position steadily without letting your hips sag."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Bulgarian Split Squat",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666674.jpg?w=740",
+    "muscleGroups": [
+      "Legs",
+      "Glutes"
+    ],
+    "equipment": "Dumbbells, Bench",
+    "difficulty": "Intermediate",
+    "duration": 20,
+    "caloriesBurned": 170,
+    "sets": 3,
+    "reps": "8-10",
+    "rating": 4.8,
+    "description": "A unilateral leg exercise that builds single-leg strength, stability, and glute activation.",
+    "instructions": [
+      "Stand facing away from a bench and place one foot behind you on top of it.",
+      "Step your front foot forward to ensure a safe stance.",
+      "Lower your hips straight down until your back knee is just above the floor.",
+      "Drive through your front heel to return to the starting position."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Standing Calf Raise",
+    "image": "https://img.magnific.com/free-photo/portrait-anime-character-doing-fitness-exercising_23-2151666675.jpg?w=740",
+    "muscleGroups": [
+      "Legs"
+    ],
+    "equipment": "Calf Block, Dumbbells",
+    "difficulty": "Beginner",
+    "duration": 15,
+    "caloriesBurned": 80,
+    "sets": 4,
+    "reps": "15-20",
+    "rating": 4.4,
+    "description": "An isolation exercise designed to develop lower leg calf size and endurance.",
+    "instructions": [
+      "Stand with the balls of your feet on a raised platform with heels hanging off.",
+      "Hold dumbbells in your hands for added resistance if desired.",
+      "Raise your heels as high as possible by flexing your calves.",
+      "Lower your heels past the platform level to get a full stretch."
+    ]
+  }
+]
