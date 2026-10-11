@@ -3,6 +3,7 @@ import LibraryCard from "@/components/shared/LibraryCard";
 import Link from "next/link";
 
 const getLibraryPromise = async () => {
+    // const response = await fetch("http://localhost:3000/workout.json");
     const response = await fetch("http://localhost:3000/workout.json");
 
     if (!response.ok) {
