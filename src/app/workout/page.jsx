@@ -3,8 +3,7 @@ import LibraryCard from "@/components/shared/LibraryCard";
 import Link from "next/link";
 
 const getLibraryPromise = async () => {
-    // const response = await fetch("http://localhost:3000/workout.json");
-    const response = await fetch("http://localhost:3000/workout.json");
+    const response = await fetch("https://api.abcz.workers.dev/api/fitlog");
 
     if (!response.ok) {
         throw new Error("Failed to fetch workout data");
